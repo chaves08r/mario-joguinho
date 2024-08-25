@@ -48,7 +48,7 @@ const loop = setInterval(() => {
         clearInterval (loop);
         clearInterval(pontuacao);
         if(quantidadePontos <= recordePontos){
-            pontos.innerHTML += " - SE FUDEU";
+            pontos.innerHTML += " - TENTE NOVAMENTE";
         }else{
             pontos.innerHTML += " - NOVO RECORDE!";
             localStorage.setItem('recordePontos',quantidadePontos);
